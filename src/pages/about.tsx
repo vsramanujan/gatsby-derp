@@ -1,6 +1,7 @@
 import { HeadFC } from "gatsby";
 import * as React from "react";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
 
 export const Head: HeadFC = () => (
   <>
-    <title>About</title>
+    <Seo title="About" />
     <meta name="description" content="Your description" />
   </>
 );
